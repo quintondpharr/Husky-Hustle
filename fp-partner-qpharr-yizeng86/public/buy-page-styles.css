@@ -1,0 +1,70 @@
+/*
+  Quinton Pharr
+  November 4th 2023
+  Donovan Kong, and Kathryn Koehler - Section AB
+
+  This is the styles page for the buy page.
+*/
+body {
+  background: #E9E2DA;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.buy-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.buy-form > section {
+  margin-bottom: 10px;
+}
+
+.confirmation {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.confirmation label {
+  margin-right: 10px;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+button:disabled {
+  background-color: #cccccc;
+}
+
+.confirmation-message {
+  color: green;
+  margin-top: 15px;
+}
+
+.item img {
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+nav img {
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  float: left;
+}

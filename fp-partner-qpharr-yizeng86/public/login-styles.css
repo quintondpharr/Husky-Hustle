@@ -1,0 +1,88 @@
+/*
+  Quinton Pharr
+  November 4th 2023
+  Donovan Kong, and Kathryn Koehler - Section AB
+
+  This is the styles page for the login page.
+*/
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #E9E2DA;
+}
+
+.hidden {
+  display: none;
+}
+
+#login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  height: 600px;
+  outline: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  background-color: antiquewhite;
+}
+
+#login-page h1 {
+  display: flex;
+  align-self: center;
+  font-family: 'Lato', 'medium', sans-serif;
+  font-size: 40px;
+  margin-bottom: 30px;
+  margin-top: 125px;
+}
+
+#username, #username-label {
+  margin-bottom: 25px;
+}
+
+#username-label {
+  font-family: 'Lato', 'bold', sans-serif;
+}
+
+#username {
+  display: flex;
+  width: 200px;
+  height: 30px;
+}
+
+#password-label {
+  font-family: 'Lato', 'bold', sans-serif;
+}
+
+#password {
+  display: flex;
+  width: 200px;
+  height: 30px;
+}
+
+#submit {
+  display: flex;
+  margin-top: 30px;
+  width: 208px;
+  height: 36px;
+  justify-content: center;
+  align-items: center;
+  background-color: #22333b;
+  color: #ffffff;
+}
+
+#submit a {
+  color: #ffffff;
+}
+
+#submit:hover {
+  background-color: #3f5b66;
+}
+
+#register-link {
+  font-size: 15px;
+}

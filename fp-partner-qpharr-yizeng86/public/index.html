@@ -1,0 +1,45 @@
+<!--
+  Yi Zeng
+  DEC 8, 2023
+  Section AE
+  This is a main-view.html page representing the main page of this website, which
+  includes all the information of items
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>HuskyHustle</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+    <script src="individual-item-page-script.js"></script>
+  </head>
+  <body>
+    <section id="main-page">
+      <div id="basic-layout">
+        <h1>HuskyHustle</h1>
+        <div id='top-bar'>
+          <select name="categories" id="item-categories">
+            <option value="category">--All Categories--</option>
+            <option value="textbook">TextBook</option>
+            <option value="cloth">Cloth</option>
+            <option value="electronics">Electronics</option>
+            <option value="houseHold">Household</option>
+            <option value="kitchen">Kitchen</option>
+          </select>
+          <input type="search" id="search-area" name="q">
+          <button id="search-button">Search</button>
+          <a id="sign-in-button" href="login.html">Sign In</a>
+          <a id="sell-page" href="seller-page.html">Sell Something!</a>
+          <a id="transaction-page" href="transactions-page.html">Past Orders</a>
+          <button id="toggle-items">Toggle Items</button>
+        </div>
+        <section id="products">
+          <p id="error"></p>
+        </section>
+      </div>
+    </section>
+
+    <section id="individual-item" class="hidden"></section>
+  </body>
+</html>

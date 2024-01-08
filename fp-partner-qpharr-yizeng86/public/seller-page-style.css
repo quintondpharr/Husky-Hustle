@@ -1,0 +1,56 @@
+/**
+ * Yi Zeng
+ * DEC 8, 2023
+ * Section AE
+ * This seller-page-style.css add styles to seller-page.html
+ */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4cm;
+  border: 0.1cm rgb(204, 205, 169) solid;
+  margin-left: 16cm;
+  margin-top: 1cm;
+  width: fit-content;
+  background-color: rgb(204, 205, 169);
+}
+
+.add-item {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 0.05cm;
+}
+
+h1 {
+  text-align: center;
+}
+
+.product {
+  border: 0.05cm rgb(204, 205, 169) solid;
+  padding-left: 3px;
+  width: 200px;
+  background-color: rgb(204, 205, 169);
+  margin: 4px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+#posted-products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#status, #error {
+  text-align: center;
+}

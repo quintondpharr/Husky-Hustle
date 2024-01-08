@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--
+  Quinton Pharr
+  November 4th, 2023
+  Donovan Kong, and Kathryn Koehler - Section AB
+
+  This is the buy page for the website. Once a user has selected an item
+  from the main view, they will be taken to this page where they can view the
+  item's details and purchase it. They will be able to select a payment method
+  and confirm the transaction before submitting it. Once the transaction is
+  submitted, the user will be shown a confirmation message.
+-->
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Buy Page</title>
+    <link rel="stylesheet" href="buy-page-styles.css">
+    <script src="buy-page-script.js"></script>
+  </head>
+
+  <body>
+
+    <header>
+      <nav>
+        <a href="index.html"><img src="img/back-button.png" alt="back"></a>
+      </nav>
+    </header>
+
+    <h1>Checkout</h1>
+    <section class="buy-container">
+      <h2>Review item:</h2>
+
+      <section class="item">
+        <img src="null" alt="product image">
+        <section class="item-info">
+          <h3>Item Name:</h3>
+          <h4>Item Description:</h4>
+          <p></p> <!-- Description will be set by JS -->
+          <p>Item Price: $<span id="price"></span></p>
+        </section>
+      </section>
+
+      <form class="buy-form">
+        <!-- Payment Selection -->
+        <section class="payment-selection">
+          <label for="payment">Select a Payment Option:</label>
+          <select id="payment" name="payment" required>
+            <option value="" disabled selected>Please select a payment method</option>
+            <option value="payment1">Credit Card</option>
+            <option value="payment2">PayPal</option>
+            <option value="payment3">Counterfeit Money</option>
+          </select>
+        </section>
+      </form>
+      <!-- Confirmation Checkbox -->
+      <section class="confirmation">
+        <label for="confirm-transaction">Confirm</label>
+        <input type="checkbox" id="confirm-transaction" name="confirm-transaction" required>
+      </section>
+
+      <!-- Submit Button -->
+      <section class="submit">
+        <button type="submit" id="submit-btn" disabled>Submit Transaction</button>
+      </section>
+
+      <!-- Confirmation Message -->
+      <section class="confirmation-message"></section>
+    </section>
+
+  </body>
+</html>

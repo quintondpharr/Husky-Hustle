@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+  Quinton Pharr
+  November 4th, 2023
+  Donovan Kong, and Kathryn Koehler - Section AB
+
+  This is the login page for the website. It allows the user to
+  provide a valid username and password to gain access to account-required
+  actions.
+-->
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Ubay</title>
+    <link rel="stylesheet" href="login-styles.css">
+    <script src="login-script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lora&family=Montserrat:wght@400;700&family=Open+Sans:wght@500&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <section id="login-page">
+      <!-- Quinton -->
+      <!-- Login page
+      A way for the user to provide a valid username and password to gain
+      access to account-required actions
+
+      A way for the user to allow the browser to save their username across
+      browser sessions (i.e. the next time they try to login)
+      -->
+      <h1 id="sign-in">Sign In</h1>
+      <form id="login-form">
+        <label id="username-label" for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <label id="password-label" for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <input id="submit" type="submit" value="Sign In">
+      </form>
+      <p id="register-link">Don't have an account? <a href="sign-up-page.html">Click here!</a></p>
+      <p id="main-page-link"><a href="index.html">Browse without logging in?</a></p>
+      <section id="error">
+        <p id="error-message"></p>
+      </section>
+    </section>
+  </body>
+</html>

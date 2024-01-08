@@ -1,0 +1,97 @@
+/*
+  Quinton Pharr
+  November 4th 2023
+  Donovan Kong, and Kathryn Koehler - Section AB
+
+  This is the styles page for the transaction page.
+*/
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #E9E2DA;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.transaction p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+#transaction-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.transaction {
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-img {
+  display: block;
+  width: 150px;
+  height: auto;
+  border-radius: 4px;
+  float: left;
+  margin-right: 15px;
+}
+
+.transaction-article {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.product-name,
+.transaction-description,
+.transaction-price,
+.transaction-confirmation,
+.transaction-date {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 2px 0;
+}
+
+.product-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.transaction-description {
+  color: #666;
+}
+
+.transaction-price {
+  color: #008000;
+}
+
+.transaction-confirmation {
+  color: #008CBA;
+}
+
+.transaction-date {
+  color: #000;
+}
+
+nav img {
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  float: left;
+}

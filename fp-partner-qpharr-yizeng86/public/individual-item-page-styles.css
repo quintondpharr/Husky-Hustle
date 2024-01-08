@@ -1,0 +1,76 @@
+/*
+  Quinton Pharr
+  November 4th 2023
+  Donovan Kong, and Kathryn Koehler - Section AB
+
+  This is the styles page for the individual items page.
+*/
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: #E9E2DA;
+  margin: 0;
+  padding: 20px;
+}
+
+#individual-item {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  margin: 40px auto;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#item-name {
+  color: #333;
+  font-size: 28px;
+}
+
+#item-image {
+  display: flex;
+  margin: auto;
+}
+
+#item-description {
+  color: #666;
+  line-height: 1.6;
+}
+
+#item-price {
+  color: #888;
+  margin-bottom: 10px;
+}
+
+#item-seller {
+  color: #888;
+  margin-bottom: 20px;
+}
+
+#buy-now {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #22333b;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+#buy-now, a {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#buy-now:hover {
+  background-color: #0056b3;
+}

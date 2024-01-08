@@ -1,0 +1,57 @@
+<!--
+  Yi Zeng
+  DEC 8, 2023
+  Section AE
+  This is a seller.html page representing creating new accounts for current
+  husky-hustle users
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SellerPage</title>
+    <link href="seller-page-style.css" rel="stylesheet">
+    <script src="seller-page-script.js"></script>
+  </head>
+  <body>
+    <a href="index.html">Back to main page</a>
+    <h1> Fill out this form to post items</h1>
+    <section id="add-items-form">
+      <form>
+        <section id="item-name" class="add-item">
+          <label for="item-name-input">Item Name:</label>
+          <input type="text" id="item-name-input" name="item-name" required>
+        </section>
+        <section id="item-description" class="add-item">
+          <label for="item-description-input">Item Description:</label>
+          <textarea id="item-description-input" name="item-description"></textarea>
+        </section>
+        <section id="item-file" class="add-item">
+          <label for="item-file-input">Item Pictures(Link)</label>
+          <input type="text" id="item-file-input" required>
+        </section>
+        <section id="item-price" class="add-item">
+          <label for="item-price-input">Item Price:</label>
+          <input type="number" id="item-price-input" name="item-price" required>
+        </section>
+        <select name="pets" id="item-categories">
+          <option value="category">--All Categories--</option>
+          <option value="textbook">TextBook</option>
+          <option value="cloth">Cloth</option>
+          <option value="electronics">Electronics</option>
+          <option value="houseHold">Household</option>
+          <option value="kitchen">Kitchen</option>
+        </select>
+        <section id="submit-button" class="add-item">
+          <button type="submit">Submit</button>
+        </section>
+      </form>
+    </section>
+    <p id="status"></p>
+    <p id="error"></p>
+    <h1>Posted Items</h1>
+    <section id="posted-products">
+
+    </section>
+  </body>
+</html>

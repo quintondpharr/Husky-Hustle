@@ -1,0 +1,67 @@
+/**
+ * Yi Zeng
+ * DEC 8, 2023
+ * Section AE
+ * This sign-up-page.css add styles to sign-up-page.html
+ */
+#sign-up-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid rgb(229, 221, 206);
+  margin-top: 80px;
+  margin-left: 13.3cm;
+  margin-right: 13.3cm;
+  background-color: rgb(195, 191, 191);
+  position: fixed;
+  height: 7cm;
+}
+
+h1 {
+  margin-bottom: 17px;
+  font-size: 35px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+label, #continue-button {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+#sign-up-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35cm;
+}
+
+body {
+  margin-top: 2cm;
+}
+
+input {
+  width: 10.5cm;
+}
+
+#continue-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: rgb(247, 239, 239);
+  outline: black;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+#continue-button:hover {
+  background-color: #3f5b66;
+}
+
+.hidden {
+  display: none;
+}
